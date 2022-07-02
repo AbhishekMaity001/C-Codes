@@ -8,7 +8,8 @@ int main(){
     cout << "~ a  = " << (~10) << endl;
     cout << "a ^ b  = " << (a^b) << endl;
 
-    // RIGHT SHIFT (divide by the shift number * 2) & LEFT SHIFT (multiply by the shift number * 2)
+    // LEFT SHIFT (multiply by the shift number * 2) & RIGHT SHIFT (divide by the shift number * 2) 
+    // in the right shift just omit the last shifted digits.
     cout << (45>>1) << endl;
     cout << (45>>2) << endl;
     cout << (45<<1) << endl;
