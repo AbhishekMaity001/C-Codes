@@ -10,7 +10,7 @@ int main(){
     int n, i=0;
     cout << "Enter n : ";
     cin >> n;
-    int ans=1;
+    int ans=0;
 
     while (n != 0){
         int bit = n & 1;
